@@ -26,9 +26,9 @@ const JobDetail = (props: any) => {
     }
   };
 
-  useEffect(() => {
-    handleJobDetail();
-  }, []);
+  // useEffect(() => {
+  //   handleJobDetail();
+  // }, []);
 
   return (
     <div className="card" style={{ width: "18rem" }}>
